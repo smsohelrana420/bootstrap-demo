@@ -2,6 +2,16 @@
 
 body{
     font-family: "Manrope", serif;
+    background-color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #fff;
+}
+p{
+    color: gray;
+}
+.bg-2{
+    background-color: #121212;
 }
 .navbar .nav-item {
     margin-left: 30px;
@@ -9,4 +19,30 @@ body{
 .btn{
     border-radius: 0;
     padding: 10px 20px;
+}
+
+.border-custom{
+    border: 1px solid #444;
+    transition: all 0.4s ease-in-out;
+}
+.border-custom:hover{
+    border-color: #2a9fd6;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: #555;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+.icon:hover{
+    background-color: #2a9fd6;
+}
+.service:hover .icon{
+    background-color: #2a9fd6;
 }
