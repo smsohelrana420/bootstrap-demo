@@ -74,3 +74,23 @@ p{
     width: 90px;
     border-radius: 100px;
 }
+
+.team-member .divider{
+    background-color: #555;
+    height: 1px;
+}
+
+.team-member .links .icon{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: transparent;
+    border: 1px solid #555;
+}
+
+.team-member .links .icon:hover{
+    background-color: #2a9fd6;
+    border: #2a9fd6;
+}
