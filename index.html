@@ -18,9 +18,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./assets/css/app.css" />
   </head>
-  <body>
+  <body id="top">
     <nav
       class="navbar py-3 navbar-expand-lg navbar-dark bg-dark"
       data-bs-theme="dark"
@@ -65,10 +66,10 @@
     <section id="hero" class="min-vh-100 d-grid align-content-center py-5">
       <div class="container">
         <div class="row gy-4 align-items-center">
-          <div class="col-lg-5">
+          <div class="col-lg-5" data-aos="fade-down" data-aos-delay="400">
             <img src="./assets/images/hero-img.png" class="img-fluid" alt="" />
           </div>
-          <div class="col-lg-7 px-lg-5">
+          <div class="col-lg-7 px-lg-5" data-aos="fade-down" data-aos-delay="400">
             <h1>
               We are a team telented designers who create beautiful websites.
             </h1>
@@ -91,7 +92,7 @@
     <!-- services start -->
     <section id="service" class="py-5">
       <div class="container">
-        <div class="row align-items-center mb-3">
+        <div class="row align-items-center mb-3" data-aos="fade-down">
           <div class="col-md-8">
             <h6 class="text-primary">SERVICES</h6>
             <h2 class="h3">Our Services</h2>
@@ -106,8 +107,8 @@
             <a href="#" class="btn btn-primary">Explore More</a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row" >
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="400">
             <div class="service border-custom p-4">
               <div class="icon">
                 <i class="lab la-adobe"></i>
@@ -120,7 +121,7 @@
               <a href="#">Read More</a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="500">
             <div class="service border-custom p-4">
               <div class="icon">
                 <i class="lab la-amazon"></i>
@@ -133,7 +134,7 @@
               <a href="#">Read More</a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="600">
             <div class="service border-custom p-4">
               <div class="icon">
                 <i class="lab la-codepen"></i>
@@ -153,7 +154,7 @@
     <!-- Portfolio start -->
     <section id="portfolio" class="py-5 bg-2">
       <div class="container">
-        <div class="row align-items-center mb-3">
+        <div class="row align-items-center mb-3" data-aos="fade-down" >
           <div class="col-md-8">
             <h6 class="text-primary">WORK</h6>
             <h2 class="h3">Our Latest Projects</h2>
@@ -164,7 +165,7 @@
               quidem velit impedit expedita accusamus!
             </p>
           </div>
-          <div class="col-md-4 text-md-end">
+          <div class="col-md-4 text-md-end" data-aos="fade-down" data-aos-delay="400">
             <a href="#" class="btn btn-primary">Explore More</a>
           </div>
         </div>
@@ -173,7 +174,7 @@
         <!-- slider -->
         <div class="swiper mySwiper pb-5">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-down" data-aos-delay="400">
               <div class="project p-4 border-custom">
                 <img src="./assets/images/portfolio-01.jpg" class="img-fluid" alt="">
                 <div class="overlay">
@@ -182,7 +183,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-down" data-aos-delay="500">
               <div class="project p-4 border-custom">
                 <img src="./assets/images/portfolio-02.jpg" class="img-fluid" alt="">
                 <div class="overlay">
@@ -191,7 +192,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-down" data-aos-delay="600">
               <div class="project p-4 border-custom">
                 <img src="./assets/images/portfolio-03.jpg" class="img-fluid" alt="">
                 <div class="overlay">
@@ -200,7 +201,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-down" data-aos-delay="700">
               <div class="project p-4 border-custom">
                 <img src="./assets/images/portfolio-04.jpg" class="img-fluid" alt="">
                 <div class="overlay">
@@ -221,7 +222,7 @@
     <!-- Testimonials start -->
     <section id="reviews" class="py-5">
       <div class="container">
-        <div class="row align-items-center mb-3">
+        <div class="row align-items-center mb-3" data-aos="fade-down" data-aos-delay="400">
           <div class="col-md-8">
             <h6 class="text-primary">REVIEWS</h6>
             <h2 class="h3">What Our Customers Say?</h2>
@@ -232,7 +233,7 @@
               quidem velit impedit expedita accusamus!
             </p>
           </div>
-          <div class="col-md-4 text-md-end">
+          <div class="col-md-4 text-md-end" data-aos="fade-down" data-aos-delay="400">
             <a href="#" class="btn btn-primary">Explore More</a>
           </div>
         </div>
@@ -241,7 +242,7 @@
         <!-- slider -->
         <div class="swiper mySwiper pb-5">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-down" data-aos-delay="400">
              <div class="review p-4 border-custom">
               <img src="./assets/images/team-01.jpg" alt="">
               <p cla>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti hic minima dolore aut nulla voluptate atque vero aspernatur facere quia.</p>
@@ -250,7 +251,7 @@
              </div>
             </div>
     
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-down" data-aos-delay="500">
              <div class="review p-4 border-custom">
               <img src="./assets/images/team-02.jpg" alt="">
               <p cla>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti hic minima dolore aut nulla voluptate atque vero aspernatur facere quia.</p>
@@ -258,7 +259,7 @@
               <p class="mb-0 text-primary">Web Designer</p>
              </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-down" data-aos-delay="600">
              <div class="review p-4 border-custom">
               <img src="./assets/images/team-03.jpg" alt="">
               <p cla>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti hic minima dolore aut nulla voluptate atque vero aspernatur facere quia.</p>
@@ -266,7 +267,7 @@
               <p class="mb-0 text-primary">Web Designer</p>
              </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-down" data-aos-delay="700">
              <div class="review p-4 border-custom">
               <img src="./assets/images/team-04.jpg" alt="">
               <p cla>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti hic minima dolore aut nulla voluptate atque vero aspernatur facere quia.</p>
@@ -288,7 +289,7 @@
     <!-- team start -->
     <section id="team" class="py-5">
       <div class="container">
-        <div class="row align-items-center mb-3">
+        <div class="row align-items-center mb-3" data-aos="fade-down">
           <div class="col-md-8">
             <h6 class="text-primary">TEAM</h6>
             <h2 class="h3">Our Crew members</h2>
@@ -305,8 +306,8 @@
         </div>
      
         <!-- row -->
-         <div class="row text-center">
-          <div class="col-lg-3 col-sm-6">
+         <div class="row g-4 text-center">
+          <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="400">
             <div class="team-member border-custom py-3">
               <div class="team-head p-3">
                 <img src="./assets/images/team-01.jpg" class="img-fluid mb-3" alt="">
@@ -322,14 +323,14 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="500">
             <div class="team-member border-custom py-3">
               <div class="team-head p-3">
                 <img src="./assets/images/team-02.jpg" class="img-fluid mb-3" alt="">
                 <small class="text-primary">Web Designer</small>
                 <h5 class="mb-0">Jon Doe</h5>
               </div>
-              <div class="divider mb-3"></div>
+              <div class="divider mb-3" data-aos="fade-down" data-aos-delay="600"></div>
               <div class="links d-flex justify-content-between px-3">
                 <a href="#" class="icon" ><i class="lab la-facebook"></i></a>
                 <a href="#" class="icon" ><i class="lab la-instagram"></i></a>
@@ -338,7 +339,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="700">
             <div class="team-member border-custom py-3">
               <div class="team-head p-3">
                 <img src="./assets/images/team-03.jpg" class="img-fluid mb-3" alt="">
@@ -354,7 +355,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="800">
             <div class="team-member border-custom py-3">
               <div class="team-head p-3">
                 <img src="./assets/images/team-04.jpg" class="img-fluid mb-3" alt="">
@@ -383,7 +384,7 @@
 
     <section id="blog" class="py-5 bg-2">
       <div class="container">
-        <div class="row align-items-center mb-3">
+        <div class="row align-items-center mb-3" data-aos="fade-down" >
           <div class="col-md-8">
             <h6 class="text-primary">Blog</h6>
             <h2 class="h3">Latest Blog Posts</h2>
@@ -394,7 +395,7 @@
               quidem velit impedit expedita accusamus!
             </p>
           </div>
-          <div class="col-md-4 text-md-end">
+          <div class="col-md-4 text-md-end" data-aos="fade-down" >
             <a href="#" class="btn btn-primary">Explore More</a>
           </div>
         </div>
@@ -402,7 +403,7 @@
          <div class="row">
 
           <!-- col -->
-           <div class="col-lg-3 col-sm-6">
+           <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="400">
             <div class="blog-post p-4 border-custom">
               <span class="badge rounded-0 bg-primary">23-12-2024</span>
               <h5 class="my-3">Design a website using Bootstrap</h5>
@@ -410,7 +411,7 @@
               <a href="#">Read More</a>
             </div>
            </div>
-           <div class="col-lg-3 col-sm-6">
+           <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="500">
             <div class="blog-post p-4 border-custom">
               <span class="badge rounded-0 bg-primary">23-12-2024</span>
               <h5 class="my-3">Design a website using Bootstrap</h5>
@@ -418,7 +419,7 @@
               <a href="#">Read More</a>
             </div>
            </div>
-           <div class="col-lg-3 col-sm-6">
+           <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="600">
             <div class="blog-post p-4 border-custom">
               <span class="badge rounded-0 bg-primary">23-12-2024</span>
               <h5 class="my-3">Design a website using Bootstrap</h5>
@@ -426,7 +427,7 @@
               <a href="#">Read More</a>
             </div>
            </div>
-           <div class="col-lg-3 col-sm-6">
+           <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="700">
             <div class="blog-post p-4 border-custom">
               <span class="badge rounded-0 bg-primary">23-12-2024</span>
               <h5 class="my-3">Design a website using Bootstrap</h5>
@@ -446,7 +447,7 @@
 
     <section id="contact" class="py-5 bg-2">
       <div class="container">
-        <div class="row align-items-center mb-3">
+        <div class="row align-items-center mb-3" data-aos="fade-down" >
           <div class="col-md-8">
             <h6 class="text-primary">CONTACT</h6>
             <h2 class="h3">Get in touch</h2>
@@ -461,7 +462,7 @@
         </div>
         
         <div class="row">
-          <div class="col-lg-6 d-grid">
+          <div class="col-lg-6 d-grid" data-aos="fade-down" data-aos-delay="400">
             <div class="border-custom p-4 d-flex">
               <div class="icon"><i class="las la-phone"></i></div>
               <div class="ms-3">
@@ -487,7 +488,7 @@
 
             </div>
           </div>
-          <div class="col-lg-6 ">
+          <div class="col-lg-6 " data-aos="fade-down" data-aos-delay="500">
             <form action="#" class="border-custom p-4">
               <div class="mb-3">
                 <label class="mb-2 text-white" for="name" class="">Name</label>
@@ -574,7 +575,8 @@
       </div>
     </footer>
 
-
+  <!-- Scroll to top -->
+   <a href="#top" class="icon scroll-to-top"><i class="las la-arrow-up"></i></a>
     
 
 
@@ -584,6 +586,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./assets/js/app.js"></script>
   </body>
 </html>
