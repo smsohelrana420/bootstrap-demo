@@ -94,3 +94,11 @@ p{
     background-color: #2a9fd6;
     border: #2a9fd6;
 }
+
+#contact .form-control{
+    background-color: transparent;
+    border: 1px solid #555;
+    border-radius: 0;
+    padding: 10px;
+    color: #fff;
+}
